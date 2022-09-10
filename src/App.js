@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import AgentContainer from './Components/agent-container.js';
+import AgentGenerator from './Components/agent-generator.js';
 import './App.css';
 
 function App() {
@@ -8,11 +8,11 @@ function App() {
     <React.Fragment>
     <div className="App">
    <h1>Valorant Agent Generator</h1>
-  
+
       <p>Click button to randomly select an agent to use for your current game</p>
       <button>Generate Now</button>
-      <AgentContainer />
-      
+
+      <AgentGenerator />
     <Footer>
     made by &nbsp;
 <a href='https://github.com/nadin3amanda'>nadin3amanda </a>
@@ -23,6 +23,7 @@ function App() {
 }
 
 export default App;
+
 
 const Footer = styled.div`
   width: 100vw;
