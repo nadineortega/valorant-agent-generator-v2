@@ -1,6 +1,14 @@
+@import url('http://fonts.cdnfonts.com/css/valorant');
+
+
 body {
   margin: 0;
-  @import url('http://fonts.cdnfonts.com/css/valorant');
+  box-sizing: border-box;
+  padding: 0;
+  background-image: url(./Images/valorant-episode-3-lobby-screen.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 code {
