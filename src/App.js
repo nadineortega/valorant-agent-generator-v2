@@ -10,8 +10,7 @@ function App() {
    <h1>Valorant Agent Generator</h1>
 
       <p>Click button to randomly select an agent to use for your current game</p>
-      <button>Generate Now</button>
-
+      <button onClick='randomAgent()'>Generate Now</button>
       <AgentGenerator />
     <Footer>
     made by &nbsp;
