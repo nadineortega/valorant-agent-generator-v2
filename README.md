@@ -1,3 +1,30 @@
+
+<div align="left" height="200px" display="flex">
+    <img src="https://media3.giphy.com/media/4Z4FRLEzoSwivZP1SI/giphy.gif?cid=ecf05e47xt0jdpiuudi6ayj4v3bkpuzw142j3b592j1bibsd&rid=giphy.gif&ct=s" width="200px" height="200px"  alt="hello doodle">
+<br><br>
+This is a Valorant Random Agent Generator
+<div align="center" height="200px" display="flex">
+<img src="https://media0.giphy.com/media/gI64yXhZgjt6pj4Mvs/giphy.gif?cid=ecf05e47tonee7dpyylmo8rn7nvqgy6m8ais79bm32tfcufz&rid=giphy.gif&ct=s">
+</img></div>
+<br><br>
+This app is made with 
+
+<div align="left" height="200px" display="flex">
+
+![React](https://img.shields.io/badge/-React-05122A?style=flat&logo=react)
+![JavaScript](https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A)
+![Git](https://img.shields.io/badge/-Git-%23F05032?style=flat-square&logo=git&logoColor=%23ffffff)
+![VS Code](http://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=ffffff)
+![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)
+</div>
+<br>
+<div align="center" height="170px" display="flex">
+<img src="https://media4.giphy.com/media/ZG4n9oaocmoZMFeUy5/giphy.gif?cid=ecf05e47jmv2yfvw3mqbp2gv3tfqy1s86lmgprka13vovj9p&rid=giphy.gif&ct=s" width="100' height="100">
+<img src="https://media3.giphy.com/media/WrDDhXTW9YtWisVMSl/giphy.gif?cid=ecf05e47dhufr7pjus0bfnzurvroqgmd15s72k86vhcn95t0&rid=giphy.gif&ct=s" width="170" height="170">
+</img>
+</div>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
