@@ -1,36 +1,64 @@
 import React from "react";
 import styled from "styled-components";
 
-const AgentGenerator = () => {
-    var agentList = [
-    // '../Images/valorant-agents/Astra.png', '../Images/valorant-agents/Breach.png', '../Images/valorant-agents/Brimstone.png', '../Images/valorant-agents/Chamber.png', '../Images/valorant-agents/Cypher.png','../Images/valorant-agents/Fade.png','../Images/valorant-agents/Jett.png','../Images/valorant-agents/KillJoy.png','../Images/valorant-agents/Neon.png','../Images/valorant-agents/Omen.png', '../Images/valorant-agents/Phoenix.png', '../Images/valorant-agents/Raze.png', '../Images/valorant-agents/Reyna.png', '../Images/valorant-agents/Sage.png', '../Images/valorant-agents/Sova.png', '../Images/valorant-agents/Viper.png', '../Images/valorant-agents/Yoru.png'
-    'Astra.png', 'Breach.png', 'Brimstone.png', 'Chamber.png', 'Cypher.png','Fade.png','Jett.png','KillJoy.png','Neon.png','Omen.png', 'Phoenix.png', 'Raze.png', 'Reyna.png', 'Sage.png', 'Sova.png', 'Viper.png', 'Yoru.png'
-];
 
-const randomAgent = agentList[Math.floor(Math.random() * agentList.length)];
-var selectedAgent_image = agentList[randomAgent];
 
-document.getElementById('agent_selected').src = `./Images/valorant-agents/${selectedAgent_image}`;
+const RandomAgentGenerator = () => {
 
-    return (
-        <RandomAgentGenerator>
-            {randomAgent}
-        </RandomAgentGenerator>
+    function getRandomAgent(min,max) {
+        return Math.floor(Math.random() * (max - min) + min);
+    }
+    const [agent, setAgent] = React.useState(0);
+    const images = [
+        require('../Images/valorant-agents/astra.png'),
+        require('../Images/valorant-agents/breach.png'),
+        require('../Images/valorant-agents/brimstone.png'),
+        require('../Images/valorant-agents/chamber.png'),
+        require('../Images/valorant-agents/cypher.png'),
+        require('../Images/valorant-agents/fade.png'),
+        require('../Images/valorant-agents/jett.png'),
+        require('../Images/valorant-agents/killjoy.png'),
+        require('../Images/valorant-agents/neon.png'),
+        require('../Images/valorant-agents/omen.png'),
+        require('../Images/valorant-agents/phoenix.png'),
+        require('../Images/valorant-agents/raze.png'),
+        require('../Images/valorant-agents/reyna.png'),
+        require('../Images/valorant-agents/sage.png'),
+        require('../Images/valorant-agents/sova.png'),
+        require('../Images/valorant-agents/viper.png'),
+        require('../Images/valorant-agents/yoru.png'),
+    ];
+
+    const handleClick = () => {
+        const randomAgentImage = getRandomAgent(0, images.length -1);
+
+        setAgent(randomAgentImage);
+    };
+
+    const currentAgent = images[agent];
+
+return (
+    <>
+    <button className="generate-btn" onClick={handleClick}> get agent</button>
+    <RandomGenerator>
+        <img src={currentAgent} alt="valorant-agent" width="350" height="680" />
+    </RandomGenerator>
+    </>
     );
 }
 
-export default AgentGenerator;
 
-const RandomAgentGenerator = styled.div`
+export default RandomAgentGenerator;
+
+const RandomGenerator = styled.div`
     width: 380px;
     height: 800px;
-    background-color: red;
     margin: 0 auto;
     display: block;
+    padding-top: 20px;
 
     @media only screen and (max-width: 600px) {
         width: 70vw;
-        height: 620px;
-        background-color: lime;
+        height: 550px;
     }
 `;
