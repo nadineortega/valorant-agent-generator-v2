@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/valorant-agent-generator-v2/static/css/main.18c5e430.css",
+    "main.js": "/valorant-agent-generator-v2/static/js/main.1665e81a.js",
+    "static/media/killjoy.png": "/valorant-agent-generator-v2/static/media/killjoy.1df4b514d3c31110104b.png",
+    "static/media/breach.png": "/valorant-agent-generator-v2/static/media/breach.87c315badcb86a009c35.png",
+    "static/media/sova.png": "/valorant-agent-generator-v2/static/media/sova.31012e0af85d8ca89ceb.png",
+    "static/media/omen.png": "/valorant-agent-generator-v2/static/media/omen.d289f90264c3a6cf450a.png",
+    "static/media/brimstone.png": "/valorant-agent-generator-v2/static/media/brimstone.734c7a9aadc6437856e8.png",
+    "static/media/raze.png": "/valorant-agent-generator-v2/static/media/raze.5b519b0d68bd8243da0f.png",
+    "static/media/reyna.png": "/valorant-agent-generator-v2/static/media/reyna.e688a8ddd6a11729e0f6.png",
+    "static/media/sage.png": "/valorant-agent-generator-v2/static/media/sage.27bbf408b689b4db9147.png",
+    "static/media/viper.png": "/valorant-agent-generator-v2/static/media/viper.feddf036814282f1545a.png",
+    "static/media/phoenix.png": "/valorant-agent-generator-v2/static/media/phoenix.89f10c63c30400955493.png",
+    "static/media/jett.png": "/valorant-agent-generator-v2/static/media/jett.5fac60844446f2b7848d.png",
+    "static/media/cypher.png": "/valorant-agent-generator-v2/static/media/cypher.b45e492c695bc511611f.png",
+    "static/media/fade.png": "/valorant-agent-generator-v2/static/media/fade.1d8f3cd999efd37b11fe.png",
+    "static/media/astra.png": "/valorant-agent-generator-v2/static/media/astra.752017159cab6f7b0d41.png",
+    "static/media/neon.png": "/valorant-agent-generator-v2/static/media/neon.7a498916f2992537cd3e.png",
+    "static/media/yoru.png": "/valorant-agent-generator-v2/static/media/yoru.fbe81f1e86a84306e4c4.png",
+    "static/media/chamber.png": "/valorant-agent-generator-v2/static/media/chamber.c19af1d47a9d6e08c0ea.png",
+    "static/media/valorant-episode-3-lobby-screen.jpg": "/valorant-agent-generator-v2/static/media/valorant-episode-3-lobby-screen.1d371f866285fd884206.jpg",
+    "index.html": "/valorant-agent-generator-v2/index.html",
+    "main.18c5e430.css.map": "/valorant-agent-generator-v2/static/css/main.18c5e430.css.map",
+    "main.1665e81a.js.map": "/valorant-agent-generator-v2/static/js/main.1665e81a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18c5e430.css",
+    "static/js/main.1665e81a.js"
+  ]
+}
